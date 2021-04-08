@@ -11,7 +11,7 @@ public class MainwindowController {
 
     @FXML
     private void clickOkButton(){
-
+        System.out.println("Ok");
     }
 
     @FXML
