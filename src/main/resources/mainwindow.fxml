@@ -9,8 +9,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainwindowController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainwindowController">
    <children>
       <VBox layoutX="358.0" layoutY="200.0" prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
          <children>
@@ -36,6 +35,50 @@
                   <VBox alignment="CENTER_LEFT" prefHeight="276.0" prefWidth="920.0" HBox.hgrow="ALWAYS">
                      <children>
                         <Label fx:id="textSize" prefHeight="25.0" prefWidth="484.0" text="Text size" VBox.vgrow="ALWAYS">
+                           <font>
+                              <Font name="Bookman Old Style" size="14.0" />
+                           </font>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                           <VBox.margin>
+                              <Insets left="40.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label fx:id="textWords" prefHeight="25.0" prefWidth="484.0" text="Words" VBox.vgrow="ALWAYS">
+                           <font>
+                              <Font name="Bookman Old Style" size="14.0" />
+                           </font>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                           <VBox.margin>
+                              <Insets left="40.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label fx:id="textLetters" prefHeight="25.0" prefWidth="484.0" text="Letters">
+                           <font>
+                              <Font name="Bookman Old Style" size="14.0" />
+                           </font>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                           <VBox.margin>
+                              <Insets left="40.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label fx:id="textNumeric" prefHeight="25.0" prefWidth="484.0" text="Numeric">
+                           <font>
+                              <Font name="Bookman Old Style" size="14.0" />
+                           </font>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                           <VBox.margin>
+                              <Insets left="40.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label fx:id="textSpecial" prefHeight="25.0" prefWidth="484.0" text="Special symbols">
                            <font>
                               <Font name="Bookman Old Style" size="14.0" />
                            </font>

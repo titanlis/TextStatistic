@@ -17,11 +17,27 @@ public class MainwindowController {
     @FXML
     Label textSize;
 
+    @FXML
+    Label textWords;
+
+    @FXML
+    Label textLetters;
+
+    @FXML
+    Label textNumeric;
+
+    @FXML
+    Label textSpecial;
+
 
     @FXML
     private void clickOkButton(){
-        String sText = startText.getText();
-        textSize.setText( "Text size = " + sText.length() + " symbols.\n");
+        TextInfo txt = new TextInfo(startText.getText());
+        textSize.setText(   "Text size = " + txt.getCountSymbols() + " symbols.\n");
+        textWords.setText(  "Words     = " + txt.getCountWorlds());
+        textLetters.setText("Letters    = " + txt.getCountLetters());
+        textNumeric.setText("Numeric  = " + txt.getCountNumeric());
+        textSpecial.setText("Special symbols = " + txt.getCountSpecialSymbols());
     }
 
     @FXML
