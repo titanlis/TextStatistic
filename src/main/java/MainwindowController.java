@@ -29,6 +29,12 @@ public class MainwindowController {
     @FXML
     Label textSpecial;
 
+    @FXML
+    Label textLetterStatString;
+
+    @FXML
+    Label textLanguage;
+
 
     @FXML
     private void clickOkButton(){
@@ -38,6 +44,8 @@ public class MainwindowController {
         textLetters.setText("Letters    = " + txt.getCountLetters());
         textNumeric.setText("Numeric  = " + txt.getCountNumeric());
         textSpecial.setText("Special symbols = " + txt.getCountSpecialSymbols());
+        textLetterStatString.setText(txt.getLetterStatString());
+        textLanguage.setText(txt.howLanguage());
     }
 
     @FXML

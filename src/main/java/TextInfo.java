@@ -1,5 +1,5 @@
+
 import java.util.*;
-import java.util.stream.Collectors;
 
 public class TextInfo {
     private final static String LATIN_ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
@@ -7,6 +7,7 @@ public class TextInfo {
     private final static String NUMERIC_ALPHABET = "0123456789";
     private final static String PUNCTUATION_MARKS = "!@#$%^&*_=+-/.?<>,:;{}[]\"'\\|()¹~` ";
     private final static String SPECIAL_SYMBOLS = "\n\t\r\f\b";
+    private enum LangType {LATIN, CYRILLIC, ANY};
 
     private String text;
     private String letterStatString;
@@ -16,7 +17,7 @@ public class TextInfo {
     private int countNumeric;
     private int countWords;
     private Map<Character, Integer> symbolStat;
-    private Boolean cyrillic;
+    private LangType langType;
 
     public static int howWords(String txt){
         int countW = 0;
@@ -97,17 +98,52 @@ public class TextInfo {
 
         letterStatString = "The symbols that occur most often : ";
 
-        SortedSet<Pare> symbolStatSet = new TreeSet<Pare>();
+        ArrayList<Pare> symbolStatSet = new ArrayList<Pare>();
 
         for(char ch : symbolStat.keySet()){
             symbolStatSet.add(new Pare(ch, symbolStat.get(ch)));
         }
 
-        for(int i=0; i<5 && i<symbolStatSet.size(); i++){
-            letterStatString+=("\'"  );
+        Collections.sort(symbolStatSet, new Comparator<Pare>() {
+            @Override
+            public int compare(Pare o1, Pare o2) {
+                return o2.num-o1.num;
+            }
+        });
+
+        Iterator<Pare> it = symbolStatSet.iterator();
+
+        Pare par;
+        for(int i=0; i<5 && it.hasNext(); i++){
+            par = it.next();
+            letterStatString+=("\'" + par.ch + "\' - " + par.num + "  " );
+        }
+
+        if(countCyrillic > countLatin*2 ){
+            langType = LangType.CYRILLIC;
+        }
+        else if(countLatin > countCyrillic*2){
+            langType = LangType.LATIN;
+        }
+        else{
+            langType = LangType.ANY;
         }
     }
 
+    public String howLanguage(){
+        String language = "Language ";
+
+        if(langType == LangType.CYRILLIC){
+            language += "is russians.";
+        }
+        else if(langType == LangType.LATIN){
+            language += "is english.";
+        }
+        else{
+            language += "is not defined.";
+        }
+        return language;
+    }
 
     public String getText() {
         return text;
@@ -137,7 +173,11 @@ public class TextInfo {
         return symbolStat;
     }
 
-    public Boolean getCyrillic() {
-        return cyrillic;
+    public String getLetterStatString() {
+        return letterStatString;
+    }
+
+    public void setLetterStatString(String letterStatString) {
+        this.letterStatString = letterStatString;
     }
 }

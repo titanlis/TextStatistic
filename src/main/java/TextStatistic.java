@@ -1,9 +1,15 @@
+/**@file TextStatistic.java main program file. Entry point.*/
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+/**@mailpage TextStatistic
+ * Simple text statistics.
+ * <p><img scr = "mainwindow.png"></p>*/
 
+
+/**@class TextStatistic JavaFX Application.*/
 public class TextStatistic extends Application {
     public static void main(String[] args) {
         Application.launch(args);
