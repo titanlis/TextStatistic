@@ -4,9 +4,10 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-/**@mailpage TextStatistic
- * Simple text statistics.
- * <p><img scr = "mainwindow.png"></p>*/
+/** @mainpage TextStatistic
+  * Simple text statistics.
+  * <p><img src = "mainwindow.png"></p>
+  */
 
 
 /**@class TextStatistic JavaFX Application.*/

@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_text_statistic" xml:lang="en-US">
+<title>TextStatistic Class Reference</title>
+<indexterm><primary>TextStatistic</primary></indexterm>
+Inheritance diagram for TextStatistic:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_text_statistic__inherit__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for TextStatistic:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_text_statistic__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_text_statistic_1a5f208e23bc905826e35eb20c58b7095e">start</link> (Stage primaryStage)  throws Exception </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static void <link linkend="_class_text_statistic_1a355470032456f4c5e6d9257ef02178e1">main</link> (String[] args)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line 14 of file TextStatistic.java.</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_text_statistic_1a355470032456f4c5e6d9257ef02178e1"/>    <section>
+    <title>main()</title>
+<indexterm><primary>main</primary><secondary>TextStatistic</secondary></indexterm>
+<indexterm><primary>TextStatistic</primary><secondary>main</secondary></indexterm>
+<para><computeroutput>static void TextStatistic.main (String[] args)<computeroutput>[static]</computeroutput></computeroutput></para><para>
+Definition at line 15 of file TextStatistic.java.</para>
+    </section><anchor xml:id="_class_text_statistic_1a5f208e23bc905826e35eb20c58b7095e"/>    <section>
+    <title>start()</title>
+<indexterm><primary>start</primary><secondary>TextStatistic</secondary></indexterm>
+<indexterm><primary>TextStatistic</primary><secondary>start</secondary></indexterm>
+<para><computeroutput>void TextStatistic.start (Stage primaryStage) throws Exception</computeroutput></para><para>
+Definition at line 20 of file TextStatistic.java.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/<link linkend="__text_statistic_8java">TextStatistic.java</link></section>
+</section>

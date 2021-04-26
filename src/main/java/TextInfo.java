@@ -1,4 +1,9 @@
-
+/** @file TextInfo.java
+  * A simple text analyzer.
+  * The program counts the total number of characters in the text, the number of words,
+  * the number of letters and numbers, and the number of non-printing special characters.
+  * TODO: text language detector.
+  */
 import java.util.*;
 
 public class TextInfo {
@@ -19,6 +24,7 @@ public class TextInfo {
     private Map<Character, Integer> symbolStat;
     private LangType langType;
 
+    /**Word count*/
     public static int howWords(String txt){
         int countW = 0;
         int i;
@@ -30,7 +36,7 @@ public class TextInfo {
         for(i=0; i < txt.length() &&  splits.indexOf(txt.charAt(i)) != -1; i++);
 
         for(;i < txt.length(); i++){
-            /* Если это буква. */
+            /* If it's a letter? */
             if(letters.indexOf(txt.charAt(i)) != -1){
                 countW++;
                 while(i < txt.length() && letters.indexOf(txt.charAt(i++)) != -1);
@@ -70,6 +76,7 @@ public class TextInfo {
         }
         countLetters = countCyrillic+countLatin;
 
+        /*Class Pair : letter + number of letters in the text.*/
         class Pare{
             char ch;
             int num;
@@ -98,6 +105,7 @@ public class TextInfo {
 
         letterStatString = "The symbols that occur most often : ";
 
+        /*A list for sorting characters by the number of occurrences in the text.*/
         ArrayList<Pare> symbolStatSet = new ArrayList<Pare>();
 
         for(char ch : symbolStat.keySet()){
@@ -130,6 +138,7 @@ public class TextInfo {
         }
     }
 
+    /*TODO: text language detector.*/
     public String howLanguage(){
         String language = "Language ";
 

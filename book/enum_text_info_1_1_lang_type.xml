@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_enum_text_info_1_1_lang_type" xml:lang="en-US">
+<title>TextInfo.LangType Enum Reference</title>
+<indexterm><primary>TextInfo.LangType</primary></indexterm>
+Collaboration diagram for TextInfo.LangType:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="enum_text_info_1_1_lang_type__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_enum_text_info_1_1_lang_type_1aa1a70c9bf4bcd95efed20cf221587b4e">LATIN</link></para>
+</listitem>
+            <listitem><para><link linkend="_enum_text_info_1_1_lang_type_1a9146cfdc0d3b2dee83c77f3079e1cb9b">CYRILLIC</link></para>
+</listitem>
+            <listitem><para><link linkend="_enum_text_info_1_1_lang_type_1af4f212591764f67f0b2b5c87eec69eca">ANY</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line 15 of file TextInfo.java.</para>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_enum_text_info_1_1_lang_type_1af4f212591764f67f0b2b5c87eec69eca"/>    <section>
+    <title>ANY</title>
+<indexterm><primary>ANY</primary><secondary>TextInfo.LangType</secondary></indexterm>
+<indexterm><primary>TextInfo.LangType</primary><secondary>ANY</secondary></indexterm>
+<para><computeroutput>TextInfo.LangType.ANY</computeroutput></para><para>
+Definition at line 15 of file TextInfo.java.</para>
+    </section><anchor xml:id="_enum_text_info_1_1_lang_type_1a9146cfdc0d3b2dee83c77f3079e1cb9b"/>    <section>
+    <title>CYRILLIC</title>
+<indexterm><primary>CYRILLIC</primary><secondary>TextInfo.LangType</secondary></indexterm>
+<indexterm><primary>TextInfo.LangType</primary><secondary>CYRILLIC</secondary></indexterm>
+<para><computeroutput>TextInfo.LangType.CYRILLIC</computeroutput></para><para>
+Definition at line 15 of file TextInfo.java.</para>
+    </section><anchor xml:id="_enum_text_info_1_1_lang_type_1aa1a70c9bf4bcd95efed20cf221587b4e"/>    <section>
+    <title>LATIN</title>
+<indexterm><primary>LATIN</primary><secondary>TextInfo.LangType</secondary></indexterm>
+<indexterm><primary>TextInfo.LangType</primary><secondary>LATIN</secondary></indexterm>
+<para><computeroutput>TextInfo.LangType.LATIN</computeroutput></para><para>
+Definition at line 15 of file TextInfo.java.</para>
+</section>
+<para>
+The documentation for this enum was generated from the following file:</para>
+src/main/java/<link linkend="__text_info_8java">TextInfo.java</link></section>
+</section>

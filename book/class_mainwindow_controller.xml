@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_mainwindow_controller" xml:lang="en-US">
+<title>MainwindowController Class Reference</title>
+<indexterm><primary>MainwindowController</primary></indexterm>
+Collaboration diagram for MainwindowController:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_mainwindow_controller__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_mainwindow_controller_1ae2168f4bfba4a938ab2bd4a6cef56bdd">initialize</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Package Attributes    </title>
+        <itemizedlist>
+            <listitem><para>Button <link linkend="_class_mainwindow_controller_1a3420772d344283de7998aea9e196f94e">cancelButton</link></para>
+</listitem>
+            <listitem><para>Button <link linkend="_class_mainwindow_controller_1a12d2f49f02c9b2584ed95087067b09d6">okButton</link></para>
+</listitem>
+            <listitem><para>TextArea <link linkend="_class_mainwindow_controller_1ad4a3d8c51e4f2118d406ca16a8f348e4">startText</link></para>
+</listitem>
+            <listitem><para>Label <link linkend="_class_mainwindow_controller_1a58931571602f5161ef1fb381f9b8d456">textSize</link></para>
+</listitem>
+            <listitem><para>Label <link linkend="_class_mainwindow_controller_1a3feae0a7de275ccab17bf5dc39021821">textWords</link></para>
+</listitem>
+            <listitem><para>Label <link linkend="_class_mainwindow_controller_1abd55468e5470580591645e00215ad28d">textLetters</link></para>
+</listitem>
+            <listitem><para>Label <link linkend="_class_mainwindow_controller_1adfc72802ff8dfa0a3d336cf6bc397ac5">textNumeric</link></para>
+</listitem>
+            <listitem><para>Label <link linkend="_class_mainwindow_controller_1a4528f44cc354d235b14282715388bf4c">textSpecial</link></para>
+</listitem>
+            <listitem><para>Label <link linkend="_class_mainwindow_controller_1ab68e68c60f0c6ce8a40532b4aeb6dce1">textLetterStatString</link></para>
+</listitem>
+            <listitem><para>Label <link linkend="_class_mainwindow_controller_1a7c96078945f10249d74df250176eace5">textLanguage</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_mainwindow_controller_1a663f707c0ff716f89fe7c2e1692760a7">clickOkButton</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_mainwindow_controller_1a50aa3c8b79676932e71bd98a0fa13b73">clickCancelButton</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line 7 of file MainwindowController.java.</para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_mainwindow_controller_1a50aa3c8b79676932e71bd98a0fa13b73"/>    <section>
+    <title>clickCancelButton()</title>
+<indexterm><primary>clickCancelButton</primary><secondary>MainwindowController</secondary></indexterm>
+<indexterm><primary>MainwindowController</primary><secondary>clickCancelButton</secondary></indexterm>
+<para><computeroutput>void MainwindowController.clickCancelButton ( )<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 52 of file MainwindowController.java.</para>
+    </section><anchor xml:id="_class_mainwindow_controller_1a663f707c0ff716f89fe7c2e1692760a7"/>    <section>
+    <title>clickOkButton()</title>
+<indexterm><primary>clickOkButton</primary><secondary>MainwindowController</secondary></indexterm>
+<indexterm><primary>MainwindowController</primary><secondary>clickOkButton</secondary></indexterm>
+<para><computeroutput>void MainwindowController.clickOkButton ( )<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 40 of file MainwindowController.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_mainwindow_controller_a663f707c0ff716f89fe7c2e1692760a7_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_class_mainwindow_controller_1ae2168f4bfba4a938ab2bd4a6cef56bdd"/>    <section>
+    <title>initialize()</title>
+<indexterm><primary>initialize</primary><secondary>MainwindowController</secondary></indexterm>
+<indexterm><primary>MainwindowController</primary><secondary>initialize</secondary></indexterm>
+<para><computeroutput>void MainwindowController.initialize ( )</computeroutput></para><para>
+Definition at line 57 of file MainwindowController.java.</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_mainwindow_controller_1a3420772d344283de7998aea9e196f94e"/>    <section>
+    <title>cancelButton</title>
+<indexterm><primary>cancelButton</primary><secondary>MainwindowController</secondary></indexterm>
+<indexterm><primary>MainwindowController</primary><secondary>cancelButton</secondary></indexterm>
+<para><computeroutput>Button MainwindowController.cancelButton<computeroutput>[package]</computeroutput></computeroutput></para><para>
+Definition at line 9 of file MainwindowController.java.</para>
+    </section><anchor xml:id="_class_mainwindow_controller_1a12d2f49f02c9b2584ed95087067b09d6"/>    <section>
+    <title>okButton</title>
+<indexterm><primary>okButton</primary><secondary>MainwindowController</secondary></indexterm>
+<indexterm><primary>MainwindowController</primary><secondary>okButton</secondary></indexterm>
+<para><computeroutput>Button MainwindowController.okButton<computeroutput>[package]</computeroutput></computeroutput></para><para>
+Definition at line 12 of file MainwindowController.java.</para>
+    </section><anchor xml:id="_class_mainwindow_controller_1ad4a3d8c51e4f2118d406ca16a8f348e4"/>    <section>
+    <title>startText</title>
+<indexterm><primary>startText</primary><secondary>MainwindowController</secondary></indexterm>
+<indexterm><primary>MainwindowController</primary><secondary>startText</secondary></indexterm>
+<para><computeroutput>TextArea MainwindowController.startText<computeroutput>[package]</computeroutput></computeroutput></para><para>
+Definition at line 15 of file MainwindowController.java.</para>
+    </section><anchor xml:id="_class_mainwindow_controller_1a7c96078945f10249d74df250176eace5"/>    <section>
+    <title>textLanguage</title>
+<indexterm><primary>textLanguage</primary><secondary>MainwindowController</secondary></indexterm>
+<indexterm><primary>MainwindowController</primary><secondary>textLanguage</secondary></indexterm>
+<para><computeroutput>Label MainwindowController.textLanguage<computeroutput>[package]</computeroutput></computeroutput></para><para>
+Definition at line 36 of file MainwindowController.java.</para>
+    </section><anchor xml:id="_class_mainwindow_controller_1abd55468e5470580591645e00215ad28d"/>    <section>
+    <title>textLetters</title>
+<indexterm><primary>textLetters</primary><secondary>MainwindowController</secondary></indexterm>
+<indexterm><primary>MainwindowController</primary><secondary>textLetters</secondary></indexterm>
+<para><computeroutput>Label MainwindowController.textLetters<computeroutput>[package]</computeroutput></computeroutput></para><para>
+Definition at line 24 of file MainwindowController.java.</para>
+    </section><anchor xml:id="_class_mainwindow_controller_1ab68e68c60f0c6ce8a40532b4aeb6dce1"/>    <section>
+    <title>textLetterStatString</title>
+<indexterm><primary>textLetterStatString</primary><secondary>MainwindowController</secondary></indexterm>
+<indexterm><primary>MainwindowController</primary><secondary>textLetterStatString</secondary></indexterm>
+<para><computeroutput>Label MainwindowController.textLetterStatString<computeroutput>[package]</computeroutput></computeroutput></para><para>
+Definition at line 33 of file MainwindowController.java.</para>
+    </section><anchor xml:id="_class_mainwindow_controller_1adfc72802ff8dfa0a3d336cf6bc397ac5"/>    <section>
+    <title>textNumeric</title>
+<indexterm><primary>textNumeric</primary><secondary>MainwindowController</secondary></indexterm>
+<indexterm><primary>MainwindowController</primary><secondary>textNumeric</secondary></indexterm>
+<para><computeroutput>Label MainwindowController.textNumeric<computeroutput>[package]</computeroutput></computeroutput></para><para>
+Definition at line 27 of file MainwindowController.java.</para>
+    </section><anchor xml:id="_class_mainwindow_controller_1a58931571602f5161ef1fb381f9b8d456"/>    <section>
+    <title>textSize</title>
+<indexterm><primary>textSize</primary><secondary>MainwindowController</secondary></indexterm>
+<indexterm><primary>MainwindowController</primary><secondary>textSize</secondary></indexterm>
+<para><computeroutput>Label MainwindowController.textSize<computeroutput>[package]</computeroutput></computeroutput></para><para>
+Definition at line 18 of file MainwindowController.java.</para>
+    </section><anchor xml:id="_class_mainwindow_controller_1a4528f44cc354d235b14282715388bf4c"/>    <section>
+    <title>textSpecial</title>
+<indexterm><primary>textSpecial</primary><secondary>MainwindowController</secondary></indexterm>
+<indexterm><primary>MainwindowController</primary><secondary>textSpecial</secondary></indexterm>
+<para><computeroutput>Label MainwindowController.textSpecial<computeroutput>[package]</computeroutput></computeroutput></para><para>
+Definition at line 30 of file MainwindowController.java.</para>
+    </section><anchor xml:id="_class_mainwindow_controller_1a3feae0a7de275ccab17bf5dc39021821"/>    <section>
+    <title>textWords</title>
+<indexterm><primary>textWords</primary><secondary>MainwindowController</secondary></indexterm>
+<indexterm><primary>MainwindowController</primary><secondary>textWords</secondary></indexterm>
+<para><computeroutput>Label MainwindowController.textWords<computeroutput>[package]</computeroutput></computeroutput></para><para>
+Definition at line 21 of file MainwindowController.java.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/<link linkend="__mainwindow_controller_8java">MainwindowController.java</link></section>
+</section>

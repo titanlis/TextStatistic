@@ -1,0 +1,351 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_text_info" xml:lang="en-US">
+<title>TextInfo Class Reference</title>
+<indexterm><primary>TextInfo</primary></indexterm>
+Collaboration diagram for TextInfo:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_text_info__coll__graph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>enum <link linkend="_enum_text_info_1_1_lang_type">LangType</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_text_info_1afa99af98c4e7261c05e91743d2dcd5d3">TextInfo</link> (String txt)</para>
+</listitem>
+            <listitem><para>String <link linkend="_class_text_info_1aa8199886ea1e947b2b2c71a48e686a9d">howLanguage</link> ()</para>
+</listitem>
+            <listitem><para>String <link linkend="_class_text_info_1a32444cdb2ec56abeb39b057d843c8f47">getText</link> ()</para>
+</listitem>
+            <listitem><para>int <link linkend="_class_text_info_1a41bcff16e0f263275f6cead419f7651b">getCountSymbols</link> ()</para>
+</listitem>
+            <listitem><para>int <link linkend="_class_text_info_1a0004d0e2b9a75a707446704f0f8011d0">getCountSpecialSymbols</link> ()</para>
+</listitem>
+            <listitem><para>int <link linkend="_class_text_info_1a71c876493ba9463e41381fedad3e2839">getCountLetters</link> ()</para>
+</listitem>
+            <listitem><para>int <link linkend="_class_text_info_1ac0edfc9d71664c3a86b109702c8d6b36">getCountNumeric</link> ()</para>
+</listitem>
+            <listitem><para>int <link linkend="_class_text_info_1af9ae4b57a251c7984e03b799c0d1d13f">getCountWorlds</link> ()</para>
+</listitem>
+            <listitem><para>Map&lt; Character, Integer &gt; <link linkend="_class_text_info_1ad935ae5c5d928512f332a3610e8bfb72">getSymbolStat</link> ()</para>
+</listitem>
+            <listitem><para>String <link linkend="_class_text_info_1af5e28333853451b0256e2dd7a7dc3f83">getLetterStatString</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_text_info_1a974d7396c0c031e60e7aaae05bbcbf0f">setLetterStatString</link> (String <link linkend="_class_text_info_1a6ab1c4e5f5ec02f9351d305ee235b982">letterStatString</link>)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static int <link linkend="_class_text_info_1ab2f28cb543267dd1789e86f63010c097">howWords</link> (String txt)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para>String <link linkend="_class_text_info_1a95e43b5a824be5cd4dd56c693afbf768">text</link></para>
+</listitem>
+            <listitem><para>String <link linkend="_class_text_info_1a6ab1c4e5f5ec02f9351d305ee235b982">letterStatString</link></para>
+</listitem>
+            <listitem><para>int <link linkend="_class_text_info_1abccb916724bb9e40e524eb91fc7e2eab">countSymbols</link></para>
+</listitem>
+            <listitem><para>int <link linkend="_class_text_info_1a991067e1c05c61e52bad318d9a6b5bb8">countSpecialSymbols</link></para>
+</listitem>
+            <listitem><para>int <link linkend="_class_text_info_1a4daa50c5247d718206bc17af3a6246f1">countLetters</link></para>
+</listitem>
+            <listitem><para>int <link linkend="_class_text_info_1a69be749c7d15f1a6d604e3503347a58d">countNumeric</link></para>
+</listitem>
+            <listitem><para>int <link linkend="_class_text_info_1ac144309490cd2667b59de9dd88046237">countWords</link></para>
+</listitem>
+            <listitem><para>Map&lt; Character, Integer &gt; <link linkend="_class_text_info_1ae5b1d8cee098d3cb7dedfebf0fafaefe">symbolStat</link></para>
+</listitem>
+            <listitem><para><link linkend="_enum_text_info_1_1_lang_type">LangType</link> <link linkend="_class_text_info_1a9fa4521a3fca77b8a5f9db941e56080a">langType</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Private Attributes    </title>
+        <itemizedlist>
+            <listitem><para>static final String <link linkend="_class_text_info_1a58217166064fb138eab9f77a06087887">LATIN_ALPHABET</link> = &quot;ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz&quot;</para>
+</listitem>
+            <listitem><para>static final String <link linkend="_class_text_info_1a544280345f9c0a0b5883ecb3f254a516">CYRILLIC_ALPHABET</link> = &quot;АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя&quot;</para>
+</listitem>
+            <listitem><para>static final String <link linkend="_class_text_info_1a2b13108fd9d31e2213d1494326f28aa2">NUMERIC_ALPHABET</link> = &quot;0123456789&quot;</para>
+</listitem>
+            <listitem><para>static final String <link linkend="_class_text_info_1a9a64de0f77a11257dff58b60e59d7e04">PUNCTUATION_MARKS</link> = &quot;!@#$%^&amp;*_=+-/.?&lt;&gt;,:;{}[]\&quot;&apos;\\|()№~` &quot;</para>
+</listitem>
+            <listitem><para>static final String <link linkend="_class_text_info_1a5591199c42eedff188f29279cc84bc56">SPECIAL_SYMBOLS</link> = &quot;\n\t\r\f\b&quot;</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line 9 of file TextInfo.java.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_text_info_1afa99af98c4e7261c05e91743d2dcd5d3"/>    <section>
+    <title>TextInfo()</title>
+<indexterm><primary>TextInfo</primary><secondary>TextInfo</secondary></indexterm>
+<indexterm><primary>TextInfo</primary><secondary>TextInfo</secondary></indexterm>
+<para><computeroutput>TextInfo.TextInfo (String txt)</computeroutput></para><para>
+Definition at line 52 of file TextInfo.java.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_text_info_afa99af98c4e7261c05e91743d2dcd5d3_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_text_info_1a71c876493ba9463e41381fedad3e2839"/>    <section>
+    <title>getCountLetters()</title>
+<indexterm><primary>getCountLetters</primary><secondary>TextInfo</secondary></indexterm>
+<indexterm><primary>TextInfo</primary><secondary>getCountLetters</secondary></indexterm>
+<para><computeroutput>int TextInfo.getCountLetters ( )</computeroutput></para><para>
+Definition at line 169 of file TextInfo.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_text_info_a71c876493ba9463e41381fedad3e2839_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_class_text_info_1ac0edfc9d71664c3a86b109702c8d6b36"/>    <section>
+    <title>getCountNumeric()</title>
+<indexterm><primary>getCountNumeric</primary><secondary>TextInfo</secondary></indexterm>
+<indexterm><primary>TextInfo</primary><secondary>getCountNumeric</secondary></indexterm>
+<para><computeroutput>int TextInfo.getCountNumeric ( )</computeroutput></para><para>
+Definition at line 173 of file TextInfo.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_text_info_ac0edfc9d71664c3a86b109702c8d6b36_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_class_text_info_1a0004d0e2b9a75a707446704f0f8011d0"/>    <section>
+    <title>getCountSpecialSymbols()</title>
+<indexterm><primary>getCountSpecialSymbols</primary><secondary>TextInfo</secondary></indexterm>
+<indexterm><primary>TextInfo</primary><secondary>getCountSpecialSymbols</secondary></indexterm>
+<para><computeroutput>int TextInfo.getCountSpecialSymbols ( )</computeroutput></para><para>
+Definition at line 165 of file TextInfo.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_text_info_a0004d0e2b9a75a707446704f0f8011d0_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_class_text_info_1a41bcff16e0f263275f6cead419f7651b"/>    <section>
+    <title>getCountSymbols()</title>
+<indexterm><primary>getCountSymbols</primary><secondary>TextInfo</secondary></indexterm>
+<indexterm><primary>TextInfo</primary><secondary>getCountSymbols</secondary></indexterm>
+<para><computeroutput>int TextInfo.getCountSymbols ( )</computeroutput></para><para>
+Definition at line 161 of file TextInfo.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_text_info_a41bcff16e0f263275f6cead419f7651b_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_class_text_info_1af9ae4b57a251c7984e03b799c0d1d13f"/>    <section>
+    <title>getCountWorlds()</title>
+<indexterm><primary>getCountWorlds</primary><secondary>TextInfo</secondary></indexterm>
+<indexterm><primary>TextInfo</primary><secondary>getCountWorlds</secondary></indexterm>
+<para><computeroutput>int TextInfo.getCountWorlds ( )</computeroutput></para><para>
+Definition at line 177 of file TextInfo.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_text_info_af9ae4b57a251c7984e03b799c0d1d13f_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_class_text_info_1af5e28333853451b0256e2dd7a7dc3f83"/>    <section>
+    <title>getLetterStatString()</title>
+<indexterm><primary>getLetterStatString</primary><secondary>TextInfo</secondary></indexterm>
+<indexterm><primary>TextInfo</primary><secondary>getLetterStatString</secondary></indexterm>
+<para><computeroutput>String TextInfo.getLetterStatString ( )</computeroutput></para><para>
+Definition at line 185 of file TextInfo.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_text_info_af5e28333853451b0256e2dd7a7dc3f83_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_class_text_info_1ad935ae5c5d928512f332a3610e8bfb72"/>    <section>
+    <title>getSymbolStat()</title>
+<indexterm><primary>getSymbolStat</primary><secondary>TextInfo</secondary></indexterm>
+<indexterm><primary>TextInfo</primary><secondary>getSymbolStat</secondary></indexterm>
+<para><computeroutput>Map&lt;Character, Integer&gt; TextInfo.getSymbolStat ( )</computeroutput></para><para>
+Definition at line 181 of file TextInfo.java.</para>
+    </section><anchor xml:id="_class_text_info_1a32444cdb2ec56abeb39b057d843c8f47"/>    <section>
+    <title>getText()</title>
+<indexterm><primary>getText</primary><secondary>TextInfo</secondary></indexterm>
+<indexterm><primary>TextInfo</primary><secondary>getText</secondary></indexterm>
+<para><computeroutput>String TextInfo.getText ( )</computeroutput></para><para>
+Definition at line 157 of file TextInfo.java.</para>
+    </section><anchor xml:id="_class_text_info_1aa8199886ea1e947b2b2c71a48e686a9d"/>    <section>
+    <title>howLanguage()</title>
+<indexterm><primary>howLanguage</primary><secondary>TextInfo</secondary></indexterm>
+<indexterm><primary>TextInfo</primary><secondary>howLanguage</secondary></indexterm>
+<para><computeroutput>String TextInfo.howLanguage ( )</computeroutput></para><para>
+Definition at line 142 of file TextInfo.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_text_info_aa8199886ea1e947b2b2c71a48e686a9d_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_class_text_info_1ab2f28cb543267dd1789e86f63010c097"/>    <section>
+    <title>howWords()</title>
+<indexterm><primary>howWords</primary><secondary>TextInfo</secondary></indexterm>
+<indexterm><primary>TextInfo</primary><secondary>howWords</secondary></indexterm>
+<para><computeroutput>static int TextInfo.howWords (String txt)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Word count </para>
+<para>
+Definition at line 28 of file TextInfo.java.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_text_info_ab2f28cb543267dd1789e86f63010c097_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+    </section><anchor xml:id="_class_text_info_1a974d7396c0c031e60e7aaae05bbcbf0f"/>    <section>
+    <title>setLetterStatString()</title>
+<indexterm><primary>setLetterStatString</primary><secondary>TextInfo</secondary></indexterm>
+<indexterm><primary>TextInfo</primary><secondary>setLetterStatString</secondary></indexterm>
+<para><computeroutput>void TextInfo.setLetterStatString (String letterStatString)</computeroutput></para><para>
+Definition at line 189 of file TextInfo.java.</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_text_info_1a4daa50c5247d718206bc17af3a6246f1"/>    <section>
+    <title>countLetters</title>
+<indexterm><primary>countLetters</primary><secondary>TextInfo</secondary></indexterm>
+<indexterm><primary>TextInfo</primary><secondary>countLetters</secondary></indexterm>
+<para><computeroutput>int TextInfo.countLetters<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 21 of file TextInfo.java.</para>
+    </section><anchor xml:id="_class_text_info_1a69be749c7d15f1a6d604e3503347a58d"/>    <section>
+    <title>countNumeric</title>
+<indexterm><primary>countNumeric</primary><secondary>TextInfo</secondary></indexterm>
+<indexterm><primary>TextInfo</primary><secondary>countNumeric</secondary></indexterm>
+<para><computeroutput>int TextInfo.countNumeric<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 22 of file TextInfo.java.</para>
+    </section><anchor xml:id="_class_text_info_1a991067e1c05c61e52bad318d9a6b5bb8"/>    <section>
+    <title>countSpecialSymbols</title>
+<indexterm><primary>countSpecialSymbols</primary><secondary>TextInfo</secondary></indexterm>
+<indexterm><primary>TextInfo</primary><secondary>countSpecialSymbols</secondary></indexterm>
+<para><computeroutput>int TextInfo.countSpecialSymbols<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 20 of file TextInfo.java.</para>
+    </section><anchor xml:id="_class_text_info_1abccb916724bb9e40e524eb91fc7e2eab"/>    <section>
+    <title>countSymbols</title>
+<indexterm><primary>countSymbols</primary><secondary>TextInfo</secondary></indexterm>
+<indexterm><primary>TextInfo</primary><secondary>countSymbols</secondary></indexterm>
+<para><computeroutput>int TextInfo.countSymbols<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 19 of file TextInfo.java.</para>
+    </section><anchor xml:id="_class_text_info_1ac144309490cd2667b59de9dd88046237"/>    <section>
+    <title>countWords</title>
+<indexterm><primary>countWords</primary><secondary>TextInfo</secondary></indexterm>
+<indexterm><primary>TextInfo</primary><secondary>countWords</secondary></indexterm>
+<para><computeroutput>int TextInfo.countWords<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 23 of file TextInfo.java.</para>
+    </section><anchor xml:id="_class_text_info_1a544280345f9c0a0b5883ecb3f254a516"/>    <section>
+    <title>CYRILLIC_ALPHABET</title>
+<indexterm><primary>CYRILLIC_ALPHABET</primary><secondary>TextInfo</secondary></indexterm>
+<indexterm><primary>TextInfo</primary><secondary>CYRILLIC_ALPHABET</secondary></indexterm>
+<para><computeroutput>final String TextInfo.CYRILLIC_ALPHABET = &quot;АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя&quot;<computeroutput>[static]</computeroutput>, <computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 11 of file TextInfo.java.</para>
+    </section><anchor xml:id="_class_text_info_1a9fa4521a3fca77b8a5f9db941e56080a"/>    <section>
+    <title>langType</title>
+<indexterm><primary>langType</primary><secondary>TextInfo</secondary></indexterm>
+<indexterm><primary>TextInfo</primary><secondary>langType</secondary></indexterm>
+<para><computeroutput><link linkend="_enum_text_info_1_1_lang_type">LangType</link> TextInfo.langType<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 25 of file TextInfo.java.</para>
+    </section><anchor xml:id="_class_text_info_1a58217166064fb138eab9f77a06087887"/>    <section>
+    <title>LATIN_ALPHABET</title>
+<indexterm><primary>LATIN_ALPHABET</primary><secondary>TextInfo</secondary></indexterm>
+<indexterm><primary>TextInfo</primary><secondary>LATIN_ALPHABET</secondary></indexterm>
+<para><computeroutput>final String TextInfo.LATIN_ALPHABET = &quot;ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz&quot;<computeroutput>[static]</computeroutput>, <computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 10 of file TextInfo.java.</para>
+    </section><anchor xml:id="_class_text_info_1a6ab1c4e5f5ec02f9351d305ee235b982"/>    <section>
+    <title>letterStatString</title>
+<indexterm><primary>letterStatString</primary><secondary>TextInfo</secondary></indexterm>
+<indexterm><primary>TextInfo</primary><secondary>letterStatString</secondary></indexterm>
+<para><computeroutput>String TextInfo.letterStatString<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 18 of file TextInfo.java.</para>
+    </section><anchor xml:id="_class_text_info_1a2b13108fd9d31e2213d1494326f28aa2"/>    <section>
+    <title>NUMERIC_ALPHABET</title>
+<indexterm><primary>NUMERIC_ALPHABET</primary><secondary>TextInfo</secondary></indexterm>
+<indexterm><primary>TextInfo</primary><secondary>NUMERIC_ALPHABET</secondary></indexterm>
+<para><computeroutput>final String TextInfo.NUMERIC_ALPHABET = &quot;0123456789&quot;<computeroutput>[static]</computeroutput>, <computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 12 of file TextInfo.java.</para>
+    </section><anchor xml:id="_class_text_info_1a9a64de0f77a11257dff58b60e59d7e04"/>    <section>
+    <title>PUNCTUATION_MARKS</title>
+<indexterm><primary>PUNCTUATION_MARKS</primary><secondary>TextInfo</secondary></indexterm>
+<indexterm><primary>TextInfo</primary><secondary>PUNCTUATION_MARKS</secondary></indexterm>
+<para><computeroutput>final String TextInfo.PUNCTUATION_MARKS = &quot;!@#$%^&amp;*_=+-/.?&lt;&gt;,:;{}[]\&quot;&apos;\\|()№~` &quot;<computeroutput>[static]</computeroutput>, <computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 13 of file TextInfo.java.</para>
+    </section><anchor xml:id="_class_text_info_1a5591199c42eedff188f29279cc84bc56"/>    <section>
+    <title>SPECIAL_SYMBOLS</title>
+<indexterm><primary>SPECIAL_SYMBOLS</primary><secondary>TextInfo</secondary></indexterm>
+<indexterm><primary>TextInfo</primary><secondary>SPECIAL_SYMBOLS</secondary></indexterm>
+<para><computeroutput>final String TextInfo.SPECIAL_SYMBOLS = &quot;\n\t\r\f\b&quot;<computeroutput>[static]</computeroutput>, <computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 14 of file TextInfo.java.</para>
+    </section><anchor xml:id="_class_text_info_1ae5b1d8cee098d3cb7dedfebf0fafaefe"/>    <section>
+    <title>symbolStat</title>
+<indexterm><primary>symbolStat</primary><secondary>TextInfo</secondary></indexterm>
+<indexterm><primary>TextInfo</primary><secondary>symbolStat</secondary></indexterm>
+<para><computeroutput>Map&lt;Character, Integer&gt; TextInfo.symbolStat<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 24 of file TextInfo.java.</para>
+    </section><anchor xml:id="_class_text_info_1a95e43b5a824be5cd4dd56c693afbf768"/>    <section>
+    <title>text</title>
+<indexterm><primary>text</primary><secondary>TextInfo</secondary></indexterm>
+<indexterm><primary>TextInfo</primary><secondary>text</secondary></indexterm>
+<para><computeroutput>String TextInfo.text<computeroutput>[private]</computeroutput></computeroutput></para><para>
+Definition at line 17 of file TextInfo.java.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+src/main/java/<link linkend="__text_info_8java">TextInfo.java</link></section>
+</section>
